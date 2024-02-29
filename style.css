@@ -1,0 +1,96 @@
+a{
+    text-decoration: none
+}
+
+.presentacion{
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&display=swap');
+.presentacion h1{
+    font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+    
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+.presentacion p{ background-color: rgb(185, 179, 171);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: 30px;
+}
+
+header{background-color: beige;
+    height: 100;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    justify-content: flex-start;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+
+}
+
+header ul li{
+    margin: 15px; 
+}
+
+
+img{
+    width: 150px;
+    height: 150px;
+}
+h1{
+    font-size:25px ;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p{
+   font-size: 16px; 
+   color: dimgrey;
+}
+
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0px 10px 0px;
+    background-color: beige;
+}
+.caja{
+    width: 100%;
+    height:100% ;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+
+.caja img{
+    border-radius: 50%;
+    
+}
+
+.caja p{
+    font-size: 12px;
+    
+}
